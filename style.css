@@ -1,0 +1,8 @@
+body {
+    display: flex;
+}
+
+.logo {
+    flex: 0 1 30%;
+    padding: 1em;
+}
