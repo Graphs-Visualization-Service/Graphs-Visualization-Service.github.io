@@ -1,8 +1,40 @@
 body {
     display: flex;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+header {
+    flex: 1 1 100%;
+    display: flex;
+}
+
+main {
+    flex: 1 1 100%;
 }
 
 .logo {
-    flex: 0 1 30%;
     padding: 1em;
+    max-width: 10em;
+}
+
+.linkboxes {
+    display: flex;
+}
+
+.linkbox {
+    padding: 1em;
+    margin: 1em;
+    background-color: dimgray;
+    color: white;
+}
+
+.linkbox > a {
+    color: white;
+    text-decoration: none;
+}
+
+.linkbox > a:hover {
+    color: gainsboro;
+    text-decoration: none;
 }
